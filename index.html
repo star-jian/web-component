@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web components example</title>
+
+</head>
+<body>
+    <h3>Personal Information</h3>
+    <user-card name="guang" avatar="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg">
+        <div slot="email">guangf@gmail.com</div>
+        <div slot="phone">222-222-2222</div>
+    </user-card>
+
+    <user-card name="cheng" avatar="https://image.shutterstock.com/image-photo/sunset-tree-frontsunset-on-600w-686248645.jpg">
+        <div slot="email">chengf@gmail.com</div>
+        <div slot="phone">333-333-3333</div>
+    </user-card>
+    
+
+    <script src="userCard.js"></script>
+</body>
+</html>
